@@ -1,0 +1,16 @@
+{
+  "name": "native-host",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Chrome Native Messaging host process (stdio + length-prefixed JSON)",
+  "main": "src/host.js",
+  "scripts": {
+    "start": "node src/host.js",
+    "register": "node scripts/register.js knhjidgijgcnomomnbcibmigmjghldcf",
+    "unregister": "node scripts/unregister.js",
+    "test:pipe": "node scripts/test-pipe.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+run_host.bat
+com.myapp.native_host.json
+logs/
